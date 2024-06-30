@@ -1,0 +1,21 @@
+name: Issue to Project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v4
+
+    - name: Add issue to project
+      uses: peter-evans/create-or-update-project-card@v1
+      with:
+        project-url: ${{ secrets.PROJECT_URL }}
+        content-id: ${{ github.event.issue.node_id }}
+        note: ${{ github.event.issue.title }}
+
