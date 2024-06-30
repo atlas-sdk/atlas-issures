@@ -1,0 +1,14 @@
+name: New Feature
+description: File a feature report.
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: "Escolha um tipo de projeto para ser gerado: "
+      options:
+        - windowns
+        - linux
+        - mac
+      default: 0
+    validations:
+      required: true
