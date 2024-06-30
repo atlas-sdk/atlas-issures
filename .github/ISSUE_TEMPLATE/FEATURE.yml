@@ -17,27 +17,3 @@ body:
       description: "Descreva a funcionalidade que você gostaria de ver implementada."
       placeholder: "Digite a descrição aqui"
       required: true
-
-  - type: textarea
-    id: motivation
-    attributes:
-      label: "Motivação"
-      description: "Explique por que essa funcionalidade é importante e como ela beneficiaria o projeto."
-      placeholder: "Digite a motivação aqui"
-      required: true
-
-  - type: textarea
-    id: implementation
-    attributes:
-      label: "Implementação"
-      description: "Se tiver ideias de como essa funcionalidade pode ser implementada, descreva-as aqui."
-      placeholder: "Digite suas ideias aqui"
-      required: false
-
-  - type: textarea
-    id: additional_resources
-    attributes:
-      label: "Recursos Adicionais"
-      description: "Adicione links ou qualquer recurso adicional que possa ajudar na implementação."
-      placeholder: "Digite os recursos adicionais aqui"
-      required: false
