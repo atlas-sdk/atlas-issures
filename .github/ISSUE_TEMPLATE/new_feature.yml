@@ -2,6 +2,9 @@ name: New Feature
 description: File a feature report.
 title: "[FEATURE]: "
 labels: ["feature"]
+projects: ["atlas-sdk/projects/2"]
+assignees:
+  - ElbertRibeiro
 body:
   - type: dropdown
     id: project
