@@ -1,5 +1,7 @@
 name: New Feature
 description: File a feature report.
+title: "[FEATURE]: "
+labels: ["feature"]
 body:
   - type: dropdown
     id: project
@@ -10,5 +12,14 @@ body:
         - linux
         - mac
       default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your feature request
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A feature happened!"
     validations:
       required: true
