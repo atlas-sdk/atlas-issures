@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["https://github.com/orgs/atlas-sdk/projects/2"]
+projects: ["atlas-sdk/projects/2"]
 assignees:
   - octocat
 body:
