@@ -11,7 +11,7 @@ body:
     attributes:
       label: "Escolha um tipo de projeto para ser gerado: "
       options:
-        - windowns
+        - windows
         - linux
         - mac
       default: 0
